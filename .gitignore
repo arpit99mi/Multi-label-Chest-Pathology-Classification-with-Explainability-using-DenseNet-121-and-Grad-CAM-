@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Model checkpoints (large files)
+checkpoints/*.pth
+checkpoints/*.pt
+
+# Results
+results/*.png
+results/*.json
+
+# Data
+data/train/
+data/test/
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
